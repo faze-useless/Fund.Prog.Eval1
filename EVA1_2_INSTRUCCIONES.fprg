@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-31 09:08:16 p. m."/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLThRODgxTTM7MjAyMy0wOC0zMTswOTowNDowNiBwLiBtLjsyNzY4"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLThRODgxTTM7MjAyMy0wOC0zMTswOTowODoxNiBwLiBtLjsxOzI4ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="100"/>
+            <output expression="&quot;Hola mundo&quot;" newline="True"/>
+            <output expression="&quot;Ya hace hambre xd&quot;" newline="True"/>
+            <output expression="a" newline="True"/>
+            <if expression="a &gt; 70">
+                <then>
+                    <output expression="&quot;Aprov&#243; el mushasho&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Pena de muerte &#55357;&#56448;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
