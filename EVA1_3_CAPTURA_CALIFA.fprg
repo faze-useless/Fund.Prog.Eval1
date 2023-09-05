@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 08:46:51 p. m."/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLThRODgxTTM7MjAyMy0wOS0wNDswODo0Mzo0NiBwLiBtLjsyNzc1"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLThRODgxTTM7MjAyMy0wOS0wNDswODo0Njo1MSBwLiBtLjsxOzI4ODI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa la calificaci&#243;n w&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Tu calificaci&#243;n es: &quot;" newline="False"/>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
