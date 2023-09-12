@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 07:21:50 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMDktMTE7MDc6MDg6MzQgcC4gbS47MjgzNg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMDktMTE7MDc6MjE6NTAgcC4gbS47MTU7Mjk5MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="a" newline="True"/>
+            <assign variable="a" expression="40"/>
+            <output expression="b" newline="True"/>
+            <assign variable="b" expression="101"/>
+            <assign variable="c" expression="a+b"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
